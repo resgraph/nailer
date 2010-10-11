@@ -1,0 +1,3 @@
+module Nailer
+
+end
