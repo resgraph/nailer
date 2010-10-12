@@ -1,6 +1,6 @@
 = nailer
 
-Nailer is a system for generating thumbnail images from web resources. Nailer can be setup to use anyone of the existing thumbnail generation systems like Webthumb, uses RMagic to thumbnail documents such as PDF and Word. It also provides workers for various background systems like resque, DelayedJob and BackgroundRB.
+Nailer is a system for generating thumbnail images from web resources. Nailer can be setup to use anyone of the existing thumbnail generation systems like Webthumb, uses RMagic to thumbnail documents such as PDF and Word. It also provides workers for various background systems like resque, DelayedJob and BackgrounDRb.
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +14,4 @@ Nailer is a system for generating thumbnail images from web resources. Nailer ca
 
 == Copyright
 
-Copyright (c) 2010 Robert A. Schmitt. See LICENSE for details.
+Copyright (c) 2010 RESolution Graphics Inc. See LICENSE for details.
