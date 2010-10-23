@@ -10,7 +10,7 @@ Nailer is a system for generating thumbnail images from web resources. Nailer ca
 
 == Installation
 
-    gem install nailer [ -v _version_number ]
+    gem install nailer [ -v _version_number_ ]
 
 == Configuration
 
