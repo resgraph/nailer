@@ -1,11 +1,11 @@
 module Nailer
 
-  class Dimension
-    attr_reader :width, :height
-
-    def initialize(width, height)
-      @width = width
-      @height = height
+  def create_thumbnail(url, options = {})
+    ut = determine_type
+    if ut == 'image'
+      image_thumbnails(overwrite)
+    elsif ut == 'html'
+      site_thumbnails(overwrite)
     end
   end
 
@@ -25,7 +25,6 @@ module Nailer
 
     def initialize(url, id)
       @url = url
-      @id = id
       @large_size = Dimension.new(1024, 768)
     end
 

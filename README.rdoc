@@ -2,15 +2,31 @@
 
 Nailer is a system for generating thumbnail images from web resources. Nailer can be setup to use anyone of the existing thumbnail generation systems like Webthumb, uses RMagic to thumbnail documents such as PDF and Word. It also provides workers for various background systems like resque, DelayedJob and BackgrounDRb.
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+== Basic Information
+
+== Features
+
+== Requirements
+
+== Installation
+
+== Configuration
+
+== Usage
+
+=== Direct Request
+
+=== Background Processing
+
+=== Batch Processing
+
+== Thanks
+
+== Credit
+
+Author:: Robert Schmitt
+
+Algorithm and gem designed by Robert Schmitt Email:(forever@thelongterm.net). Questions and bug reports welcomed. Suggestions and patches gratefully accepted. raduated University of Rochester.
 
 == Copyright
 

@@ -20,22 +20,6 @@ rescue LoadError
 end
 
 begin
-  # Rspec 1.3.0
-  require 'spec/rake/spectask'
-
-  task :default => :spec
-
-  Spec::Rake::SpecTask.new do |t|
-    t.spec_files = FileList["spec/**/*_spec.rb"]
-  end
-
-  Spec::Rake::SpecTask.new('rcov') do |t|
-    t.spec_files = FileList["spec/**/*_spec.rb"]
-    t.rcov = true
-    t.rcov_opts = ['--exclude', 'spec']
-  end
-
-rescue LoadError
   # Rspec 2.0
   require 'rspec/core/rake_task'
 
