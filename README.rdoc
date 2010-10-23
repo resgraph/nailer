@@ -22,6 +22,8 @@ Nailer is a system for generating thumbnail images from web resources. Nailer ca
 
 == Thanks
 
+Thanks to Jason Rust for help in building the initial application-integrated version of the nailer code.
+
 == Credit
 
 Author:: Robert Schmitt
